@@ -1,0 +1,27 @@
+
+{% extends 'AppBundle:Shared:layout.html.twig' %}
+{% block title %}Товары{% endblock %}
+{% block body %}
+    {% for game in games %}
+        <div class="well">
+            <h3>
+                <strong>{{ game.title }}</strong>
+                <span class="pull-right label label-primary">{{ game.price }} руб.</span>
+            </h3>
+            <form action="/cart/add_to_cart" method="GET">
+                <div class="pull-right">
+                    <input type="hidden" value="{{game.id}}" />
+                    <input type="hidden" name="returnUrl" value="{{returnUrl}}" />
+                    <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+
+                </div>
+
+            </form>
+            <span class="lead">{{ game.description }}</span>
+        </div>
+    {% endfor %}
+    <div class="navigation">
+    {{ knp_pagination_render(games) }}
+</div>
+
+{% endblock %}

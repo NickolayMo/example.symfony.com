@@ -1,0 +1,19 @@
+{# empty Twig template #}
+<div class="hidden-xs">
+    <a href="{{ path('_index') }}" class="btn btn-block btn-default btn-lg">Домой</a>
+    {% for category in categories %}
+        <a  href="{{ path('_category', {'category':  category.category}) }}" class="btn btn-block btn-default btn-lg {%if category.category == currentCategory %}btn-primary{%endif%}">
+            {{ category.category }}
+        </a>       
+    {% endfor %}
+
+</div>    
+<div class="btn-group btn-group-sm btn-group-justified hidden-sm hidden-md hidden-lg">
+    <a href="{{ path('_index') }}" class="btn btn-default btn-sm">Домой</a>
+    {% for category in categories %}
+        <a href="{{ path('_category', {'category':  category.category}) }}" class="btn btn-default btn-sm {%if category.category == currentCategory %}btn-primary{%endif%}">
+            {{ category.category }}
+        </a>       
+    {% endfor %}
+
+</div>

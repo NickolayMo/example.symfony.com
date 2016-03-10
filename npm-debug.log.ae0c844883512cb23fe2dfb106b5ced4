@@ -1,0 +1,756 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'cache', 'clean' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.1
+4 silly ls normalized .
+5 silly gentlyRm /home/kolya/.npm/078063e6-once-1-3-0.lock is being purged
+6 silly gentlyRm /home/kolya/.npm/089bdae4-s-vinyl-fs-node-modules-defaults.lock is being purged
+7 silly gentlyRm /home/kolya/.npm/0e270ba7-odash-template-3-6-2-package-tgz.lock is being purged
+8 silly gentlyRm /home/kolya/.npm/1b1f9449-npm-minimatch-2-0-10-package-tgz.lock is being purged
+9 silly gentlyRm /home/kolya/.npm/1f83206d-m-glob-stream-3-1-18-package-tgz.lock is being purged
+10 silly gentlyRm /home/kolya/.npm/20a16773-ules-liftoff-node-modules-extend.lock is being purged
+11 silly gentlyRm /home/kolya/.npm/215d7a09--util-node-modules-object-assign.lock is being purged
+12 silly gentlyRm /home/kolya/.npm/22c6b485-minimist-0-0-8.lock is being purged
+13 silly gentlyRm /home/kolya/.npm/287ca830-pm-replace-ext-0-0-1-package-tgz.lock is being purged
+14 silly gentlyRm /home/kolya/.npm/28f48494-les-vinyl-fs-node-modules-mkdirp.lock is being purged
+15 silly gentlyRm /home/kolya/.npm/2a5c3601-lya-npm-semver-4-3-6-package-tgz.lock is being purged
+16 silly gentlyRm /home/kolya/.npm/2cc9f691-til-node-modules-lodash-reescape.lock is being purged
+17 silly gentlyRm /home/kolya/.npm/2d143c67-kolya-npm-glob-4-5-3-package-tgz.lock is being purged
+18 silly gentlyRm /home/kolya/.npm/2e8b21b0--object-assign-3-0-0-package-tgz.lock is being purged
+19 silly gentlyRm /home/kolya/.npm/2f885453--npm-multipipe-0-1-2-package-tgz.lock is being purged
+20 silly gentlyRm /home/kolya/.npm/31f9a640-til-node-modules-lodash-template.lock is being purged
+21 silly gentlyRm /home/kolya/.npm/33b51363-gulp-util-node-modules-multipipe.lock is being purged
+22 silly gentlyRm /home/kolya/.npm/343f2f82-lya-npm-mkdirp-0-5-1-package-tgz.lock is being purged
+23 silly gentlyRm /home/kolya/.npm/3cc02a8a-s-vinyl-fs-node-modules-through2.lock is being purged
+24 silly gentlyRm /home/kolya/.npm/3e351513-es-findup-sync-node-modules-glob.lock is being purged
+25 silly gentlyRm /home/kolya/.npm/42ae85f3-olya-npm-glob-5-0-15-package-tgz.lock is being purged
+26 silly gentlyRm /home/kolya/.npm/4628e691-pm-findup-sync-0-3-0-package-tgz.lock is being purged
+27 silly gentlyRm /home/kolya/.npm/4661d449--npm-fancy-log-1-2-0-package-tgz.lock is being purged
+28 silly gentlyRm /home/kolya/.npm/4982a866-pm-dateformat-1-0-12-package-tgz.lock is being purged
+29 silly gentlyRm /home/kolya/.npm/4bfc2a1b-lya-npm-extend-2-0-1-package-tgz.lock is being purged
+30 silly gentlyRm /home/kolya/.npm/4e735f24-l-node-modules-lodash-reevaluate.lock is being purged
+31 silly gentlyRm /home/kolya/.npm/560b6eca-ya-npm-gulplog-1-0-0-package-tgz.lock is being purged
+32 silly gentlyRm /home/kolya/.npm/589ec429--gulp-util-node-modules-through2.lock is being purged
+33 silly gentlyRm /home/kolya/.npm/5c5237ea-olya-npm-vinyl-0-5-3-package-tgz.lock is being purged
+34 silly gentlyRm /home/kolya/.npm/66f4ecd3-s-gulp-util-node-modules-gulplog.lock is being purged
+35 silly gentlyRm /home/kolya/.npm/6751e9f9-odash-reescape-3-0-0-package-tgz.lock is being purged
+36 silly gentlyRm /home/kolya/.npm/6af0773b--reinterpolate-3-0-0-package-tgz.lock is being purged
+37 silly gentlyRm /home/kolya/.npm/6d41b66d-modules-gulp-node-modules-semver.lock is being purged
+38 silly gentlyRm /home/kolya/.npm/6dcad947-es-glob-stream-node-modules-glob.lock is being purged
+39 silly gentlyRm /home/kolya/.npm/771e6f01-gh2-node-modules-readable-stream.lock is being purged
+40 silly gentlyRm /home/kolya/.npm/81193b88-adable-stream-1-0-33-package-tgz.lock is being purged
+41 silly gentlyRm /home/kolya/.npm/82f111aa-lp-util-node-modules-has-gulplog.lock is being purged
+42 silly gentlyRm /home/kolya/.npm/83c9587d-ules-globule-node-modules-lodash.lock is being purged
+43 silly gentlyRm /home/kolya/.npm/847e56de--vinyl-fs-node-modules-strip-bom.lock is being purged
+44 silly gentlyRm /home/kolya/.npm/87602f73-olya-npm-vinyl-0-4-6-package-tgz.lock is being purged
+45 silly gentlyRm /home/kolya/.npm/87cd34ee-ya-npm-rechoir-0-6-2-package-tgz.lock is being purged
+46 silly gentlyRm /home/kolya/.npm/905dc55b-a-npm-through2-2-0-1-package-tgz.lock is being purged
+47 silly gentlyRm /home/kolya/.npm/93a074c9-npm-find-index-0-1-1-package-tgz.lock is being purged
+48 silly gentlyRm /home/kolya/.npm/95d0eb0c-globule-0-1-0.lock is being purged
+49 silly gentlyRm /home/kolya/.npm/9a97da93-es-gulp-util-node-modules-beeper.lock is being purged
+50 silly gentlyRm /home/kolya/.npm/9dc35b12-npm-ansi-regex-2-0-0-package-tgz.lock is being purged
+51 silly gentlyRm /home/kolya/.npm/9ede5afd-pm-graceful-fs-3-0-8-package-tgz.lock is being purged
+52 silly gentlyRm /home/kolya/.npm/_locks is being purged
+53 silly gentlyRm /home/kolya/.npm/a318f82e-inyl-fs-node-modules-graceful-fs.lock is being purged
+54 silly gentlyRm /home/kolya/.npm/a54464dc-lya-npm-lodash-1-0-2-package-tgz.lock is being purged
+55 silly gentlyRm /home/kolya/.npm/a55ae499-pm-has-gulplog-0-1-0-package-tgz.lock is being purged
+56 silly gentlyRm /home/kolya/.npm/aa1b6554-rip-ansi-node-modules-ansi-regex.lock is being purged
+57 silly gentlyRm /home/kolya/.npm/aa7e009b-lya-npm-beeper-1-1-0-package-tgz.lock is being purged
+58 silly gentlyRm /home/kolya/.npm/ansi-regex is being purged
+59 silly gentlyRm /home/kolya/.npm/ansi-styles is being purged
+60 silly gentlyRm /home/kolya/.npm/archy is being purged
+61 silly gentlyRm /home/kolya/.npm/array-differ is being purged
+62 silly gentlyRm /home/kolya/.npm/array-find-index is being purged
+63 silly gentlyRm /home/kolya/.npm/array-uniq is being purged
+64 silly gentlyRm /home/kolya/.npm/b126351e-nkie-promise-node-modules-pinkie.lock is being purged
+65 silly gentlyRm /home/kolya/.npm/b74d61d8-once-1-3-3.lock is being purged
+66 silly gentlyRm /home/kolya/.npm/ba65b53b-inyl-fs-node-modules-glob-stream.lock is being purged
+67 silly gentlyRm /home/kolya/.npm/balanced-match is being purged
+68 silly gentlyRm /home/kolya/.npm/bc3db0c9-m-glob-watcher-0-0-6-package-tgz.lock is being purged
+69 silly gentlyRm /home/kolya/.npm/bce22c1d-a-npm-through2-0-6-5-package-tgz.lock is being purged
+70 silly gentlyRm /home/kolya/.npm/beeper is being purged
+71 silly gentlyRm /home/kolya/.npm/bower is being purged
+72 silly gentlyRm /home/kolya/.npm/brace-expansion is being purged
+73 silly gentlyRm /home/kolya/.npm/builtin-modules is being purged
+74 silly gentlyRm /home/kolya/.npm/c9786253-ode-modules-lodash-reinterpolate.lock is being purged
+75 silly gentlyRm /home/kolya/.npm/camelcase is being purged
+76 silly gentlyRm /home/kolya/.npm/camelcase-keys is being purged
+77 silly gentlyRm /home/kolya/.npm/ce4a8099--npm-strip-bom-1-0-0-package-tgz.lock is being purged
+78 silly gentlyRm /home/kolya/.npm/chalk is being purged
+79 silly gentlyRm /home/kolya/.npm/clone is being purged
+80 silly gentlyRm /home/kolya/.npm/clone-stats is being purged
+81 silly gentlyRm /home/kolya/.npm/color-convert is being purged
+82 silly gentlyRm /home/kolya/.npm/concat-map is being purged
+83 silly gentlyRm /home/kolya/.npm/core-util-is is being purged
+84 silly gentlyRm /home/kolya/.npm/d1f5b900-les-liftoff-node-modules-rechoir.lock is being purged
+85 silly gentlyRm /home/kolya/.npm/d2d90b9a-ulp-util-node-modules-dateformat.lock is being purged
+86 silly gentlyRm /home/kolya/.npm/d4facb2d-ules-vinyl-fs-node-modules-vinyl.lock is being purged
+87 silly gentlyRm /home/kolya/.npm/d7ee81fb--color-convert-1-0-0-package-tgz.lock is being purged
+88 silly gentlyRm /home/kolya/.npm/d8dba3fc-gulp-util-node-modules-fancy-log.lock is being purged
+89 silly gentlyRm /home/kolya/.npm/dateformat is being purged
+90 silly gentlyRm /home/kolya/.npm/dba1ab6c-nyl-fs-node-modules-glob-watcher.lock is being purged
+91 silly gentlyRm /home/kolya/.npm/dd67a9e8-lagged-respawn-0-3-1-package-tgz.lock is being purged
+92 silly gentlyRm /home/kolya/.npm/decamelize is being purged
+93 silly gentlyRm /home/kolya/.npm/defabc26-lob2base-node-modules-find-index.lock is being purged
+94 silly gentlyRm /home/kolya/.npm/defaults is being purged
+95 silly gentlyRm /home/kolya/.npm/deprecated is being purged
+96 silly gentlyRm /home/kolya/.npm/duplexer2 is being purged
+97 silly gentlyRm /home/kolya/.npm/e0803c2e-lp-util-node-modules-replace-ext.lock is being purged
+98 silly gentlyRm /home/kolya/.npm/e45865e8-has-ansi-node-modules-ansi-regex.lock is being purged
+99 silly gentlyRm /home/kolya/.npm/ec1b737e-les-gulp-util-node-modules-vinyl.lock is being purged
+100 silly gentlyRm /home/kolya/.npm/ed9fff49-ash-reevaluate-3-0-0-package-tgz.lock is being purged
+101 silly gentlyRm /home/kolya/.npm/efa3d8ec-a-npm-defaults-1-0-3-package-tgz.lock is being purged
+102 silly gentlyRm /home/kolya/.npm/efd89384-tyles-node-modules-color-convert.lock is being purged
+103 silly gentlyRm /home/kolya/.npm/end-of-stream is being purged
+104 silly gentlyRm /home/kolya/.npm/error-ex is being purged
+105 silly gentlyRm /home/kolya/.npm/escape-string-regexp is being purged
+106 silly gentlyRm /home/kolya/.npm/extend is being purged
+107 silly gentlyRm /home/kolya/.npm/f3401d6e-ob-stream-node-modules-minimatch.lock is being purged
+108 silly gentlyRm /home/kolya/.npm/f5c4e842-off-node-modules-flagged-respawn.lock is being purged
+109 silly gentlyRm /home/kolya/.npm/fa6ea24e-lya-npm-pinkie-2-0-4-package-tgz.lock is being purged
+110 silly gentlyRm /home/kolya/.npm/fancy-log is being purged
+111 silly gentlyRm /home/kolya/.npm/fe8524e2-liftoff-node-modules-findup-sync.lock is being purged
+112 silly gentlyRm /home/kolya/.npm/find-index is being purged
+113 silly gentlyRm /home/kolya/.npm/find-up is being purged
+114 silly gentlyRm /home/kolya/.npm/findup-sync is being purged
+115 silly gentlyRm /home/kolya/.npm/first-chunk-stream is being purged
+116 silly gentlyRm /home/kolya/.npm/flagged-respawn is being purged
+117 silly gentlyRm /home/kolya/.npm/gaze is being purged
+118 silly gentlyRm /home/kolya/.npm/get-stdin is being purged
+119 silly gentlyRm /home/kolya/.npm/glob is being purged
+120 silly gentlyRm /home/kolya/.npm/glob-stream is being purged
+121 silly gentlyRm /home/kolya/.npm/glob-watcher is being purged
+122 silly gentlyRm /home/kolya/.npm/glob2base is being purged
+123 silly gentlyRm /home/kolya/.npm/globule is being purged
+124 silly gentlyRm /home/kolya/.npm/glogg is being purged
+125 silly gentlyRm /home/kolya/.npm/graceful-fs is being purged
+126 silly gentlyRm /home/kolya/.npm/gulp is being purged
+127 silly gentlyRm /home/kolya/.npm/gulp-util is being purged
+128 silly gentlyRm /home/kolya/.npm/gulplog is being purged
+129 silly gentlyRm /home/kolya/.npm/has-ansi is being purged
+130 silly gentlyRm /home/kolya/.npm/has-gulplog is being purged
+131 silly gentlyRm /home/kolya/.npm/hosted-git-info is being purged
+132 silly gentlyRm /home/kolya/.npm/indent-string is being purged
+133 silly gentlyRm /home/kolya/.npm/inflight is being purged
+134 silly gentlyRm /home/kolya/.npm/inherits is being purged
+135 silly gentlyRm /home/kolya/.npm/interpret is being purged
+136 silly gentlyRm /home/kolya/.npm/is-arrayish is being purged
+137 silly gentlyRm /home/kolya/.npm/is-builtin-module is being purged
+138 silly gentlyRm /home/kolya/.npm/is-finite is being purged
+139 silly gentlyRm /home/kolya/.npm/is-utf8 is being purged
+140 silly gentlyRm /home/kolya/.npm/isarray is being purged
+141 silly gentlyRm /home/kolya/.npm/liftoff is being purged
+142 silly gentlyRm /home/kolya/.npm/load-json-file is being purged
+143 silly gentlyRm /home/kolya/.npm/lodash is being purged
+144 silly gentlyRm /home/kolya/.npm/lodash._basecopy is being purged
+145 silly gentlyRm /home/kolya/.npm/lodash._basetostring is being purged
+146 silly gentlyRm /home/kolya/.npm/lodash._basevalues is being purged
+147 silly gentlyRm /home/kolya/.npm/lodash._getnative is being purged
+148 silly gentlyRm /home/kolya/.npm/lodash._isiterateecall is being purged
+149 silly gentlyRm /home/kolya/.npm/lodash._reescape is being purged
+150 silly gentlyRm /home/kolya/.npm/lodash._reevaluate is being purged
+151 silly gentlyRm /home/kolya/.npm/lodash._reinterpolate is being purged
+152 silly gentlyRm /home/kolya/.npm/lodash._root is being purged
+153 silly gentlyRm /home/kolya/.npm/lodash.escape is being purged
+154 silly gentlyRm /home/kolya/.npm/lodash.isarguments is being purged
+155 silly gentlyRm /home/kolya/.npm/lodash.isarray is being purged
+156 silly gentlyRm /home/kolya/.npm/lodash.keys is being purged
+157 silly gentlyRm /home/kolya/.npm/lodash.restparam is being purged
+158 silly gentlyRm /home/kolya/.npm/lodash.template is being purged
+159 silly gentlyRm /home/kolya/.npm/lodash.templatesettings is being purged
+160 silly gentlyRm /home/kolya/.npm/loud-rejection is being purged
+161 silly gentlyRm /home/kolya/.npm/lru-cache is being purged
+162 silly gentlyRm /home/kolya/.npm/map-obj is being purged
+163 silly gentlyRm /home/kolya/.npm/meow is being purged
+164 silly gentlyRm /home/kolya/.npm/minimatch is being purged
+165 silly gentlyRm /home/kolya/.npm/minimist is being purged
+166 silly gentlyRm /home/kolya/.npm/mkdirp is being purged
+167 silly gentlyRm /home/kolya/.npm/multipipe is being purged
+168 silly gentlyRm /home/kolya/.npm/n is being purged
+169 silly gentlyRm /home/kolya/.npm/normalize-package-data is being purged
+170 silly gentlyRm /home/kolya/.npm/number-is-nan is being purged
+171 silly gentlyRm /home/kolya/.npm/object-assign is being purged
+172 silly gentlyRm /home/kolya/.npm/once is being purged
+173 silly gentlyRm /home/kolya/.npm/orchestrator is being purged
+174 silly gentlyRm /home/kolya/.npm/ordered-read-streams is being purged
+175 silly gentlyRm /home/kolya/.npm/os-homedir is being purged
+176 silly gentlyRm /home/kolya/.npm/parse-json is being purged
+177 silly gentlyRm /home/kolya/.npm/path-exists is being purged
+178 silly gentlyRm /home/kolya/.npm/path-is-absolute is being purged
+179 silly gentlyRm /home/kolya/.npm/path-type is being purged
+180 silly gentlyRm /home/kolya/.npm/pify is being purged
+181 silly gentlyRm /home/kolya/.npm/pinkie is being purged
+182 silly gentlyRm /home/kolya/.npm/pinkie-promise is being purged
+183 silly gentlyRm /home/kolya/.npm/pretty-hrtime is being purged
+184 silly gentlyRm /home/kolya/.npm/process-nextick-args is being purged
+185 silly gentlyRm /home/kolya/.npm/read-pkg is being purged
+186 silly gentlyRm /home/kolya/.npm/read-pkg-up is being purged
+187 silly gentlyRm /home/kolya/.npm/readable-stream is being purged
+188 silly gentlyRm /home/kolya/.npm/rechoir is being purged
+189 silly gentlyRm /home/kolya/.npm/redent is being purged
+190 silly gentlyRm /home/kolya/.npm/registry.npmjs.org is being purged
+191 silly gentlyRm /home/kolya/.npm/repeating is being purged
+192 silly gentlyRm /home/kolya/.npm/replace-ext is being purged
+193 silly gentlyRm /home/kolya/.npm/resolve is being purged
+194 silly gentlyRm /home/kolya/.npm/semver is being purged
+195 silly gentlyRm /home/kolya/.npm/sequencify is being purged
+196 silly gentlyRm /home/kolya/.npm/sigmund is being purged
+197 silly gentlyRm /home/kolya/.npm/signal-exit is being purged
+198 silly gentlyRm /home/kolya/.npm/sparkles is being purged
+199 silly gentlyRm /home/kolya/.npm/spdx-correct is being purged
+200 silly gentlyRm /home/kolya/.npm/spdx-exceptions is being purged
+201 silly gentlyRm /home/kolya/.npm/spdx-expression-parse is being purged
+202 silly gentlyRm /home/kolya/.npm/spdx-license-ids is being purged
+203 silly gentlyRm /home/kolya/.npm/stream-consume is being purged
+204 silly gentlyRm /home/kolya/.npm/string_decoder is being purged
+205 silly gentlyRm /home/kolya/.npm/strip-ansi is being purged
+206 silly gentlyRm /home/kolya/.npm/strip-bom is being purged
+207 silly gentlyRm /home/kolya/.npm/strip-indent is being purged
+208 silly gentlyRm /home/kolya/.npm/supports-color is being purged
+209 silly gentlyRm /home/kolya/.npm/through2 is being purged
+210 silly gentlyRm /home/kolya/.npm/tildify is being purged
+211 silly gentlyRm /home/kolya/.npm/time-stamp is being purged
+212 silly gentlyRm /home/kolya/.npm/trim-newlines is being purged
+213 silly gentlyRm /home/kolya/.npm/unique-stream is being purged
+214 silly gentlyRm /home/kolya/.npm/user-home is being purged
+215 silly gentlyRm /home/kolya/.npm/util-deprecate is being purged
+216 silly gentlyRm /home/kolya/.npm/v8flags is being purged
+217 silly gentlyRm /home/kolya/.npm/validate-npm-package-license is being purged
+218 silly gentlyRm /home/kolya/.npm/vinyl is being purged
+219 silly gentlyRm /home/kolya/.npm/vinyl-fs is being purged
+220 silly gentlyRm /home/kolya/.npm/wrappy is being purged
+221 silly gentlyRm /home/kolya/.npm/xtend is being purged
+222 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/078063e6-once-1-3-0.lock
+223 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/1f83206d-m-glob-stream-3-1-18-package-tgz.lock
+224 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/20a16773-ules-liftoff-node-modules-extend.lock
+225 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/215d7a09--util-node-modules-object-assign.lock
+226 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/22c6b485-minimist-0-0-8.lock
+227 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/287ca830-pm-replace-ext-0-0-1-package-tgz.lock
+228 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/28f48494-les-vinyl-fs-node-modules-mkdirp.lock
+229 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/089bdae4-s-vinyl-fs-node-modules-defaults.lock
+230 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/0e270ba7-odash-template-3-6-2-package-tgz.lock
+231 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/2cc9f691-til-node-modules-lodash-reescape.lock
+232 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/1b1f9449-npm-minimatch-2-0-10-package-tgz.lock
+233 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/2f885453--npm-multipipe-0-1-2-package-tgz.lock
+234 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/2a5c3601-lya-npm-semver-4-3-6-package-tgz.lock
+235 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/33b51363-gulp-util-node-modules-multipipe.lock
+236 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/2d143c67-kolya-npm-glob-4-5-3-package-tgz.lock
+237 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/3cc02a8a-s-vinyl-fs-node-modules-through2.lock
+238 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/2e8b21b0--object-assign-3-0-0-package-tgz.lock
+239 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/31f9a640-til-node-modules-lodash-template.lock
+240 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/4628e691-pm-findup-sync-0-3-0-package-tgz.lock
+241 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/343f2f82-lya-npm-mkdirp-0-5-1-package-tgz.lock
+242 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/4982a866-pm-dateformat-1-0-12-package-tgz.lock
+243 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/3e351513-es-findup-sync-node-modules-glob.lock
+244 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/4e735f24-l-node-modules-lodash-reevaluate.lock
+245 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/42ae85f3-olya-npm-glob-5-0-15-package-tgz.lock
+246 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/4661d449--npm-fancy-log-1-2-0-package-tgz.lock
+247 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/4bfc2a1b-lya-npm-extend-2-0-1-package-tgz.lock
+248 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/66f4ecd3-s-gulp-util-node-modules-gulplog.lock
+249 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/560b6eca-ya-npm-gulplog-1-0-0-package-tgz.lock
+250 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/589ec429--gulp-util-node-modules-through2.lock
+251 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/6d41b66d-modules-gulp-node-modules-semver.lock
+252 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/5c5237ea-olya-npm-vinyl-0-5-3-package-tgz.lock
+253 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/771e6f01-gh2-node-modules-readable-stream.lock
+254 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/81193b88-adable-stream-1-0-33-package-tgz.lock
+255 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/6751e9f9-odash-reescape-3-0-0-package-tgz.lock
+256 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/6dcad947-es-glob-stream-node-modules-glob.lock
+257 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/6af0773b--reinterpolate-3-0-0-package-tgz.lock
+258 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/847e56de--vinyl-fs-node-modules-strip-bom.lock
+259 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/83c9587d-ules-globule-node-modules-lodash.lock
+260 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/87602f73-olya-npm-vinyl-0-4-6-package-tgz.lock
+261 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/87cd34ee-ya-npm-rechoir-0-6-2-package-tgz.lock
+262 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/905dc55b-a-npm-through2-2-0-1-package-tgz.lock
+263 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/93a074c9-npm-find-index-0-1-1-package-tgz.lock
+264 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/9ede5afd-pm-graceful-fs-3-0-8-package-tgz.lock
+265 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/_locks
+266 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/95d0eb0c-globule-0-1-0.lock
+267 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/a54464dc-lya-npm-lodash-1-0-2-package-tgz.lock
+268 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/9a97da93-es-gulp-util-node-modules-beeper.lock
+269 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/9dc35b12-npm-ansi-regex-2-0-0-package-tgz.lock
+270 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/aa7e009b-lya-npm-beeper-1-1-0-package-tgz.lock
+271 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ansi-regex
+272 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/a318f82e-inyl-fs-node-modules-graceful-fs.lock
+273 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/archy
+274 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/array-differ
+275 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/array-find-index
+276 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/array-uniq
+277 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/a55ae499-pm-has-gulplog-0-1-0-package-tgz.lock
+278 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ansi-styles
+279 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/aa1b6554-rip-ansi-node-modules-ansi-regex.lock
+280 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/balanced-match
+281 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/bc3db0c9-m-glob-watcher-0-0-6-package-tgz.lock
+282 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/b126351e-nkie-promise-node-modules-pinkie.lock
+283 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/beeper
+284 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/bower
+285 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/brace-expansion
+286 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/builtin-modules
+287 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/c9786253-ode-modules-lodash-reinterpolate.lock
+288 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/camelcase
+289 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/camelcase-keys
+290 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/b74d61d8-once-1-3-3.lock
+291 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/clone
+292 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/clone-stats
+293 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/color-convert
+294 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/concat-map
+295 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/core-util-is
+296 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/d1f5b900-les-liftoff-node-modules-rechoir.lock
+297 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ba65b53b-inyl-fs-node-modules-glob-stream.lock
+298 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/bce22c1d-a-npm-through2-0-6-5-package-tgz.lock
+299 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ce4a8099--npm-strip-bom-1-0-0-package-tgz.lock
+300 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/dateformat
+301 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/d2d90b9a-ulp-util-node-modules-dateformat.lock
+302 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/dba1ab6c-nyl-fs-node-modules-glob-watcher.lock
+303 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/decamelize
+304 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/d8dba3fc-gulp-util-node-modules-fancy-log.lock
+305 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/defaults
+306 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/deprecated
+307 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/duplexer2
+308 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/dd67a9e8-lagged-respawn-0-3-1-package-tgz.lock
+309 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/d7ee81fb--color-convert-1-0-0-package-tgz.lock
+310 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/e45865e8-has-ansi-node-modules-ansi-regex.lock
+311 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/defabc26-lob2base-node-modules-find-index.lock
+312 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/e0803c2e-lp-util-node-modules-replace-ext.lock
+313 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ec1b737e-les-gulp-util-node-modules-vinyl.lock
+314 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/end-of-stream
+315 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/error-ex
+316 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/escape-string-regexp
+317 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/extend
+318 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/f3401d6e-ob-stream-node-modules-minimatch.lock
+319 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/f5c4e842-off-node-modules-flagged-respawn.lock
+320 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ed9fff49-ash-reevaluate-3-0-0-package-tgz.lock
+321 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/fancy-log
+322 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/efa3d8ec-a-npm-defaults-1-0-3-package-tgz.lock
+323 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/find-index
+324 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/find-up
+325 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/findup-sync
+326 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/first-chunk-stream
+327 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/flagged-respawn
+328 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/gaze
+329 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/get-stdin
+330 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/glob
+331 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/glob-stream
+332 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/glob-watcher
+333 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/glob2base
+334 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/globule
+335 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/glogg
+336 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/graceful-fs
+337 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/gulp
+338 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/gulp-util
+339 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/gulplog
+340 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/has-ansi
+341 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/has-gulplog
+342 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/hosted-git-info
+343 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/indent-string
+344 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/inflight
+345 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/inherits
+346 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/chalk
+347 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/82f111aa-lp-util-node-modules-has-gulplog.lock
+348 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/d4facb2d-ules-vinyl-fs-node-modules-vinyl.lock
+349 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/interpret
+350 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/is-arrayish
+351 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/is-builtin-module
+352 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/is-finite
+353 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/is-utf8
+354 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/isarray
+355 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/liftoff
+356 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/load-json-file
+357 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash
+358 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._basecopy
+359 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._basetostring
+360 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._basevalues
+361 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._getnative
+362 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._isiterateecall
+363 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._reescape
+364 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._reevaluate
+365 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._reinterpolate
+366 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash._root
+367 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.escape
+368 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.isarguments
+369 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.isarray
+370 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.keys
+371 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.restparam
+372 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.template
+373 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lodash.templatesettings
+374 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/loud-rejection
+375 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/lru-cache
+376 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/map-obj
+377 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/meow
+378 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/minimatch
+379 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/minimist
+380 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/mkdirp
+381 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/multipipe
+382 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/n
+383 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/normalize-package-data
+384 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/number-is-nan
+385 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/object-assign
+386 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/once
+387 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/orchestrator
+388 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/ordered-read-streams
+389 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/os-homedir
+390 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/parse-json
+391 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/path-exists
+392 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/path-is-absolute
+393 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/path-type
+394 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/pify
+395 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/pinkie
+396 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/pinkie-promise
+397 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/pretty-hrtime
+398 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/process-nextick-args
+399 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/read-pkg
+400 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/read-pkg-up
+401 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/readable-stream
+402 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/rechoir
+403 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/redent
+404 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/registry.npmjs.org
+405 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/repeating
+406 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/replace-ext
+407 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/resolve
+408 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/semver
+409 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/sequencify
+410 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/sigmund
+411 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/signal-exit
+412 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/sparkles
+413 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/spdx-correct
+414 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/spdx-exceptions
+415 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/spdx-expression-parse
+416 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/spdx-license-ids
+417 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/stream-consume
+418 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/string_decoder
+419 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/strip-ansi
+420 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/strip-bom
+421 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/strip-indent
+422 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/supports-color
+423 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/through2
+424 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/tildify
+425 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/time-stamp
+426 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/trim-newlines
+427 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/unique-stream
+428 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/user-home
+429 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/util-deprecate
+430 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/v8flags
+431 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/validate-npm-package-license
+432 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/vinyl
+433 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/vinyl-fs
+434 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/wrappy
+435 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/xtend
+436 silly vacuum-fs purging /home/kolya/.npm/078063e6-once-1-3-0.lock
+437 silly vacuum-fs purging /home/kolya/.npm/1f83206d-m-glob-stream-3-1-18-package-tgz.lock
+438 silly vacuum-fs purging /home/kolya/.npm/20a16773-ules-liftoff-node-modules-extend.lock
+439 silly vacuum-fs purging /home/kolya/.npm/215d7a09--util-node-modules-object-assign.lock
+440 silly vacuum-fs purging /home/kolya/.npm/22c6b485-minimist-0-0-8.lock
+441 silly vacuum-fs purging /home/kolya/.npm/287ca830-pm-replace-ext-0-0-1-package-tgz.lock
+442 silly vacuum-fs purging /home/kolya/.npm/28f48494-les-vinyl-fs-node-modules-mkdirp.lock
+443 silly vacuum-fs purging /home/kolya/.npm/089bdae4-s-vinyl-fs-node-modules-defaults.lock
+444 silly vacuum-fs purging /home/kolya/.npm/0e270ba7-odash-template-3-6-2-package-tgz.lock
+445 silly vacuum-fs purging /home/kolya/.npm/2cc9f691-til-node-modules-lodash-reescape.lock
+446 silly vacuum-fs purging /home/kolya/.npm/1b1f9449-npm-minimatch-2-0-10-package-tgz.lock
+447 silly vacuum-fs purging /home/kolya/.npm/2f885453--npm-multipipe-0-1-2-package-tgz.lock
+448 silly vacuum-fs purging /home/kolya/.npm/2a5c3601-lya-npm-semver-4-3-6-package-tgz.lock
+449 silly vacuum-fs purging /home/kolya/.npm/33b51363-gulp-util-node-modules-multipipe.lock
+450 silly vacuum-fs purging /home/kolya/.npm/2d143c67-kolya-npm-glob-4-5-3-package-tgz.lock
+451 silly vacuum-fs purging /home/kolya/.npm/3cc02a8a-s-vinyl-fs-node-modules-through2.lock
+452 silly vacuum-fs purging /home/kolya/.npm/2e8b21b0--object-assign-3-0-0-package-tgz.lock
+453 silly vacuum-fs purging /home/kolya/.npm/31f9a640-til-node-modules-lodash-template.lock
+454 silly vacuum-fs purging /home/kolya/.npm/4628e691-pm-findup-sync-0-3-0-package-tgz.lock
+455 silly vacuum-fs purging /home/kolya/.npm/343f2f82-lya-npm-mkdirp-0-5-1-package-tgz.lock
+456 silly vacuum-fs purging /home/kolya/.npm/4982a866-pm-dateformat-1-0-12-package-tgz.lock
+457 silly vacuum-fs purging /home/kolya/.npm/3e351513-es-findup-sync-node-modules-glob.lock
+458 silly vacuum-fs purging /home/kolya/.npm/4e735f24-l-node-modules-lodash-reevaluate.lock
+459 silly vacuum-fs purging /home/kolya/.npm/42ae85f3-olya-npm-glob-5-0-15-package-tgz.lock
+460 silly vacuum-fs purging /home/kolya/.npm/4661d449--npm-fancy-log-1-2-0-package-tgz.lock
+461 silly vacuum-fs purging /home/kolya/.npm/4bfc2a1b-lya-npm-extend-2-0-1-package-tgz.lock
+462 silly vacuum-fs purging /home/kolya/.npm/66f4ecd3-s-gulp-util-node-modules-gulplog.lock
+463 silly vacuum-fs purging /home/kolya/.npm/560b6eca-ya-npm-gulplog-1-0-0-package-tgz.lock
+464 silly vacuum-fs purging /home/kolya/.npm/589ec429--gulp-util-node-modules-through2.lock
+465 silly vacuum-fs purging /home/kolya/.npm/6d41b66d-modules-gulp-node-modules-semver.lock
+466 silly vacuum-fs purging /home/kolya/.npm/5c5237ea-olya-npm-vinyl-0-5-3-package-tgz.lock
+467 silly vacuum-fs purging /home/kolya/.npm/771e6f01-gh2-node-modules-readable-stream.lock
+468 silly vacuum-fs purging /home/kolya/.npm/81193b88-adable-stream-1-0-33-package-tgz.lock
+469 silly vacuum-fs purging /home/kolya/.npm/6751e9f9-odash-reescape-3-0-0-package-tgz.lock
+470 silly vacuum-fs purging /home/kolya/.npm/6dcad947-es-glob-stream-node-modules-glob.lock
+471 silly vacuum-fs purging /home/kolya/.npm/6af0773b--reinterpolate-3-0-0-package-tgz.lock
+472 silly vacuum-fs purging /home/kolya/.npm/847e56de--vinyl-fs-node-modules-strip-bom.lock
+473 silly vacuum-fs purging /home/kolya/.npm/83c9587d-ules-globule-node-modules-lodash.lock
+474 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/efd89384-tyles-node-modules-color-convert.lock
+475 silly vacuum-fs purging /home/kolya/.npm/87602f73-olya-npm-vinyl-0-4-6-package-tgz.lock
+476 silly vacuum-fs purging /home/kolya/.npm/87cd34ee-ya-npm-rechoir-0-6-2-package-tgz.lock
+477 silly vacuum-fs purging /home/kolya/.npm/905dc55b-a-npm-through2-2-0-1-package-tgz.lock
+478 silly vacuum-fs purging /home/kolya/.npm/93a074c9-npm-find-index-0-1-1-package-tgz.lock
+479 silly vacuum-fs purging /home/kolya/.npm/9ede5afd-pm-graceful-fs-3-0-8-package-tgz.lock
+480 silly vacuum-fs purging /home/kolya/.npm/_locks
+481 silly vacuum-fs purging /home/kolya/.npm/95d0eb0c-globule-0-1-0.lock
+482 silly vacuum-fs purging /home/kolya/.npm/a54464dc-lya-npm-lodash-1-0-2-package-tgz.lock
+483 silly vacuum-fs purging /home/kolya/.npm/9a97da93-es-gulp-util-node-modules-beeper.lock
+484 silly vacuum-fs purging /home/kolya/.npm/9dc35b12-npm-ansi-regex-2-0-0-package-tgz.lock
+485 silly vacuum-fs purging /home/kolya/.npm/aa7e009b-lya-npm-beeper-1-1-0-package-tgz.lock
+486 silly vacuum-fs purging /home/kolya/.npm/ansi-regex
+487 silly vacuum-fs purging /home/kolya/.npm/a318f82e-inyl-fs-node-modules-graceful-fs.lock
+488 silly vacuum-fs purging /home/kolya/.npm/archy
+489 silly vacuum-fs purging /home/kolya/.npm/array-differ
+490 silly vacuum-fs purging /home/kolya/.npm/array-find-index
+491 silly vacuum-fs purging /home/kolya/.npm/array-uniq
+492 silly vacuum-fs purging /home/kolya/.npm/a55ae499-pm-has-gulplog-0-1-0-package-tgz.lock
+493 silly vacuum-fs purging /home/kolya/.npm/ansi-styles
+494 silly vacuum-fs purging /home/kolya/.npm/aa1b6554-rip-ansi-node-modules-ansi-regex.lock
+495 silly vacuum-fs purging /home/kolya/.npm/balanced-match
+496 silly vacuum-fs purging /home/kolya/.npm/bc3db0c9-m-glob-watcher-0-0-6-package-tgz.lock
+497 silly vacuum-fs purging /home/kolya/.npm/b126351e-nkie-promise-node-modules-pinkie.lock
+498 silly vacuum-fs purging /home/kolya/.npm/beeper
+499 silly vacuum-fs purging /home/kolya/.npm/bower
+500 silly vacuum-fs purging /home/kolya/.npm/brace-expansion
+501 silly vacuum-fs purging /home/kolya/.npm/builtin-modules
+502 silly vacuum-fs purging /home/kolya/.npm/c9786253-ode-modules-lodash-reinterpolate.lock
+503 silly vacuum-fs purging /home/kolya/.npm/camelcase
+504 silly vacuum-fs purging /home/kolya/.npm/camelcase-keys
+505 silly vacuum-fs purging /home/kolya/.npm/b74d61d8-once-1-3-3.lock
+506 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/fa6ea24e-lya-npm-pinkie-2-0-4-package-tgz.lock
+507 silly vacuum-fs purging /home/kolya/.npm/clone
+508 silly vacuum-fs purging /home/kolya/.npm/clone-stats
+509 silly vacuum-fs purging /home/kolya/.npm/color-convert
+510 silly vacuum-fs purging /home/kolya/.npm/concat-map
+511 silly vacuum-fs purging /home/kolya/.npm/core-util-is
+512 silly vacuum-fs purging /home/kolya/.npm/d1f5b900-les-liftoff-node-modules-rechoir.lock
+513 silly vacuum-fs purging /home/kolya/.npm/ba65b53b-inyl-fs-node-modules-glob-stream.lock
+514 verbose gentlyRm don't care about contents; nuking /home/kolya/.npm/fe8524e2-liftoff-node-modules-findup-sync.lock
+515 silly vacuum-fs purging /home/kolya/.npm/bce22c1d-a-npm-through2-0-6-5-package-tgz.lock
+516 silly vacuum-fs purging /home/kolya/.npm/ce4a8099--npm-strip-bom-1-0-0-package-tgz.lock
+517 silly vacuum-fs purging /home/kolya/.npm/dateformat
+518 silly vacuum-fs purging /home/kolya/.npm/d2d90b9a-ulp-util-node-modules-dateformat.lock
+519 silly vacuum-fs purging /home/kolya/.npm/dba1ab6c-nyl-fs-node-modules-glob-watcher.lock
+520 silly vacuum-fs purging /home/kolya/.npm/decamelize
+521 silly vacuum-fs purging /home/kolya/.npm/d8dba3fc-gulp-util-node-modules-fancy-log.lock
+522 silly vacuum-fs purging /home/kolya/.npm/defaults
+523 silly vacuum-fs purging /home/kolya/.npm/deprecated
+524 silly vacuum-fs purging /home/kolya/.npm/duplexer2
+525 silly vacuum-fs purging /home/kolya/.npm/dd67a9e8-lagged-respawn-0-3-1-package-tgz.lock
+526 silly vacuum-fs purging /home/kolya/.npm/d7ee81fb--color-convert-1-0-0-package-tgz.lock
+527 silly vacuum-fs purging /home/kolya/.npm/e45865e8-has-ansi-node-modules-ansi-regex.lock
+528 silly vacuum-fs purging /home/kolya/.npm/defabc26-lob2base-node-modules-find-index.lock
+529 silly vacuum-fs purging /home/kolya/.npm/e0803c2e-lp-util-node-modules-replace-ext.lock
+530 silly vacuum-fs purging /home/kolya/.npm/ec1b737e-les-gulp-util-node-modules-vinyl.lock
+531 silly vacuum-fs purging /home/kolya/.npm/end-of-stream
+532 silly vacuum-fs purging /home/kolya/.npm/error-ex
+533 silly vacuum-fs purging /home/kolya/.npm/escape-string-regexp
+534 silly vacuum-fs purging /home/kolya/.npm/extend
+535 silly vacuum-fs purging /home/kolya/.npm/f3401d6e-ob-stream-node-modules-minimatch.lock
+536 silly vacuum-fs purging /home/kolya/.npm/f5c4e842-off-node-modules-flagged-respawn.lock
+537 silly vacuum-fs purging /home/kolya/.npm/ed9fff49-ash-reevaluate-3-0-0-package-tgz.lock
+538 silly vacuum-fs purging /home/kolya/.npm/fancy-log
+539 silly vacuum-fs purging /home/kolya/.npm/efa3d8ec-a-npm-defaults-1-0-3-package-tgz.lock
+540 silly vacuum-fs purging /home/kolya/.npm/find-index
+541 silly vacuum-fs purging /home/kolya/.npm/find-up
+542 silly vacuum-fs purging /home/kolya/.npm/findup-sync
+543 silly vacuum-fs purging /home/kolya/.npm/first-chunk-stream
+544 silly vacuum-fs purging /home/kolya/.npm/flagged-respawn
+545 silly vacuum-fs purging /home/kolya/.npm/gaze
+546 silly vacuum-fs purging /home/kolya/.npm/get-stdin
+547 silly vacuum-fs purging /home/kolya/.npm/glob
+548 silly vacuum-fs purging /home/kolya/.npm/glob-stream
+549 silly vacuum-fs purging /home/kolya/.npm/glob-watcher
+550 silly vacuum-fs purging /home/kolya/.npm/glob2base
+551 silly vacuum-fs purging /home/kolya/.npm/globule
+552 silly vacuum-fs purging /home/kolya/.npm/glogg
+553 silly vacuum-fs purging /home/kolya/.npm/graceful-fs
+554 silly vacuum-fs purging /home/kolya/.npm/gulp
+555 silly vacuum-fs purging /home/kolya/.npm/gulp-util
+556 silly vacuum-fs purging /home/kolya/.npm/gulplog
+557 silly vacuum-fs purging /home/kolya/.npm/has-ansi
+558 silly vacuum-fs purging /home/kolya/.npm/has-gulplog
+559 silly vacuum-fs purging /home/kolya/.npm/hosted-git-info
+560 silly vacuum-fs purging /home/kolya/.npm/indent-string
+561 silly vacuum-fs purging /home/kolya/.npm/inflight
+562 silly vacuum-fs purging /home/kolya/.npm/inherits
+563 silly vacuum-fs purging /home/kolya/.npm/chalk
+564 silly vacuum-fs purging /home/kolya/.npm/82f111aa-lp-util-node-modules-has-gulplog.lock
+565 silly vacuum-fs purging /home/kolya/.npm/d4facb2d-ules-vinyl-fs-node-modules-vinyl.lock
+566 silly vacuum-fs purging /home/kolya/.npm/interpret
+567 silly vacuum-fs purging /home/kolya/.npm/is-arrayish
+568 silly vacuum-fs purging /home/kolya/.npm/is-builtin-module
+569 silly vacuum-fs purging /home/kolya/.npm/is-finite
+570 silly vacuum-fs purging /home/kolya/.npm/is-utf8
+571 silly vacuum-fs purging /home/kolya/.npm/isarray
+572 silly vacuum-fs purging /home/kolya/.npm/liftoff
+573 silly vacuum-fs purging /home/kolya/.npm/load-json-file
+574 silly vacuum-fs purging /home/kolya/.npm/lodash
+575 silly vacuum-fs purging /home/kolya/.npm/lodash._basecopy
+576 silly vacuum-fs purging /home/kolya/.npm/lodash._basetostring
+577 silly vacuum-fs purging /home/kolya/.npm/lodash._basevalues
+578 silly vacuum-fs purging /home/kolya/.npm/lodash._getnative
+579 silly vacuum-fs purging /home/kolya/.npm/lodash._isiterateecall
+580 silly vacuum-fs purging /home/kolya/.npm/lodash._reescape
+581 silly vacuum-fs purging /home/kolya/.npm/lodash._reevaluate
+582 silly vacuum-fs purging /home/kolya/.npm/lodash._reinterpolate
+583 silly vacuum-fs purging /home/kolya/.npm/lodash._root
+584 silly vacuum-fs purging /home/kolya/.npm/lodash.escape
+585 silly vacuum-fs purging /home/kolya/.npm/lodash.isarguments
+586 silly vacuum-fs purging /home/kolya/.npm/lodash.isarray
+587 silly vacuum-fs purging /home/kolya/.npm/lodash.keys
+588 silly vacuum-fs purging /home/kolya/.npm/lodash.restparam
+589 silly vacuum-fs purging /home/kolya/.npm/lodash.template
+590 silly vacuum-fs purging /home/kolya/.npm/lodash.templatesettings
+591 silly vacuum-fs purging /home/kolya/.npm/loud-rejection
+592 silly vacuum-fs purging /home/kolya/.npm/lru-cache
+593 silly vacuum-fs purging /home/kolya/.npm/map-obj
+594 silly vacuum-fs purging /home/kolya/.npm/meow
+595 silly vacuum-fs purging /home/kolya/.npm/minimatch
+596 silly vacuum-fs purging /home/kolya/.npm/minimist
+597 silly vacuum-fs purging /home/kolya/.npm/mkdirp
+598 silly vacuum-fs purging /home/kolya/.npm/multipipe
+599 silly vacuum-fs purging /home/kolya/.npm/n
+600 silly vacuum-fs purging /home/kolya/.npm/normalize-package-data
+601 silly vacuum-fs purging /home/kolya/.npm/number-is-nan
+602 silly vacuum-fs purging /home/kolya/.npm/object-assign
+603 silly vacuum-fs purging /home/kolya/.npm/once
+604 silly vacuum-fs purging /home/kolya/.npm/orchestrator
+605 silly vacuum-fs purging /home/kolya/.npm/ordered-read-streams
+606 silly vacuum-fs purging /home/kolya/.npm/os-homedir
+607 silly vacuum-fs purging /home/kolya/.npm/parse-json
+608 silly vacuum-fs purging /home/kolya/.npm/path-exists
+609 silly vacuum-fs purging /home/kolya/.npm/path-is-absolute
+610 silly vacuum-fs purging /home/kolya/.npm/path-type
+611 silly vacuum-fs purging /home/kolya/.npm/pify
+612 silly vacuum-fs purging /home/kolya/.npm/pinkie
+613 silly vacuum-fs purging /home/kolya/.npm/pinkie-promise
+614 silly vacuum-fs purging /home/kolya/.npm/pretty-hrtime
+615 silly vacuum-fs purging /home/kolya/.npm/process-nextick-args
+616 silly vacuum-fs purging /home/kolya/.npm/read-pkg
+617 silly vacuum-fs purging /home/kolya/.npm/read-pkg-up
+618 silly vacuum-fs purging /home/kolya/.npm/readable-stream
+619 silly vacuum-fs purging /home/kolya/.npm/rechoir
+620 silly vacuum-fs purging /home/kolya/.npm/redent
+621 silly vacuum-fs purging /home/kolya/.npm/registry.npmjs.org
+622 silly vacuum-fs purging /home/kolya/.npm/repeating
+623 silly vacuum-fs purging /home/kolya/.npm/replace-ext
+624 silly vacuum-fs purging /home/kolya/.npm/resolve
+625 silly vacuum-fs purging /home/kolya/.npm/semver
+626 silly vacuum-fs purging /home/kolya/.npm/sequencify
+627 silly vacuum-fs purging /home/kolya/.npm/sigmund
+628 silly vacuum-fs purging /home/kolya/.npm/signal-exit
+629 silly vacuum-fs purging /home/kolya/.npm/sparkles
+630 silly vacuum-fs purging /home/kolya/.npm/spdx-correct
+631 silly vacuum-fs purging /home/kolya/.npm/spdx-exceptions
+632 silly vacuum-fs purging /home/kolya/.npm/spdx-expression-parse
+633 silly vacuum-fs purging /home/kolya/.npm/spdx-license-ids
+634 silly vacuum-fs purging /home/kolya/.npm/stream-consume
+635 silly vacuum-fs purging /home/kolya/.npm/string_decoder
+636 silly vacuum-fs purging /home/kolya/.npm/strip-ansi
+637 silly vacuum-fs purging /home/kolya/.npm/strip-bom
+638 silly vacuum-fs purging /home/kolya/.npm/strip-indent
+639 silly vacuum-fs purging /home/kolya/.npm/supports-color
+640 silly vacuum-fs purging /home/kolya/.npm/through2
+641 silly vacuum-fs purging /home/kolya/.npm/tildify
+642 silly vacuum-fs purging /home/kolya/.npm/time-stamp
+643 silly vacuum-fs purging /home/kolya/.npm/trim-newlines
+644 silly vacuum-fs purging /home/kolya/.npm/unique-stream
+645 silly vacuum-fs purging /home/kolya/.npm/user-home
+646 silly vacuum-fs purging /home/kolya/.npm/util-deprecate
+647 silly vacuum-fs purging /home/kolya/.npm/v8flags
+648 silly vacuum-fs purging /home/kolya/.npm/validate-npm-package-license
+649 silly vacuum-fs purging /home/kolya/.npm/vinyl
+650 silly vacuum-fs purging /home/kolya/.npm/vinyl-fs
+651 silly vacuum-fs purging /home/kolya/.npm/wrappy
+652 silly vacuum-fs purging /home/kolya/.npm/xtend
+653 silly vacuum-fs purging /home/kolya/.npm/efd89384-tyles-node-modules-color-convert.lock
+654 silly vacuum-fs purging /home/kolya/.npm/fa6ea24e-lya-npm-pinkie-2-0-4-package-tgz.lock
+655 silly vacuum-fs purging /home/kolya/.npm/fe8524e2-liftoff-node-modules-findup-sync.lock
+656 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+657 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+658 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+659 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+660 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+661 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+662 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+663 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+664 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+665 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+666 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+667 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+668 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+669 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+670 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+671 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+672 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+673 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+674 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+675 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+676 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+677 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+678 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+679 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+680 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+681 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+682 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+683 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+684 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+685 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+686 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+687 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+688 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+689 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+690 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+691 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+692 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+693 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+694 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+695 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+696 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+697 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+698 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+699 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+700 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+701 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+702 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+703 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+704 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+705 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+706 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+707 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+708 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+709 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+710 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+711 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+712 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+713 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+714 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+715 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+716 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+717 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+718 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+719 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+720 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+721 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+722 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+723 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+724 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+725 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+726 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+727 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+728 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+729 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+730 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+731 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+732 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+733 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+734 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+735 silly vacuum-fs quitting because other entries in /home/kolya/.npm
+736 verbose stack Error: EACCES: permission denied, rmdir '/home/kolya/.npm/ansi-regex/2.0.0'
+736 verbose stack     at Error (native)
+737 verbose cwd /var/www/hosting/example.symfony.com
+738 error Linux 4.2.0-16-generic
+739 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "cache" "clean"
+740 error node v5.4.1
+741 error npm  v3.3.12
+742 error path /home/kolya/.npm/ansi-regex/2.0.0
+743 error code EACCES
+744 error errno -13
+745 error syscall rmdir
+746 error Error: EACCES: permission denied, rmdir '/home/kolya/.npm/ansi-regex/2.0.0'
+746 error     at Error (native)
+746 error  { [Error: EACCES: permission denied, rmdir '/home/kolya/.npm/ansi-regex/2.0.0']
+746 error   errno: -13,
+746 error   code: 'EACCES',
+746 error   syscall: 'rmdir',
+746 error   path: '/home/kolya/.npm/ansi-regex/2.0.0' }
+747 error Please try running this command again as root/Administrator.
+748 verbose exit [ -13, true ]

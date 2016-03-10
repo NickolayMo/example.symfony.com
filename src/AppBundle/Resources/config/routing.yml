@@ -1,0 +1,21 @@
+
+_index:
+    path:     /
+    defaults: { _controller: AppBundle:Home:Index, category:'',page:1 }
+_list:
+    path:     /{category}/page{page}
+    defaults: { _controller: AppBundle:Home:Index }
+    requirements:
+        page:  \d+
+_page:
+    path:     /page{page}
+    defaults: { _controller: AppBundle:Home:Index, category:''}
+    requirements:
+        page:  \d+
+_category:
+    path:     /{category}
+    defaults: { _controller: AppBundle:Home:Index, category:'',page:1 }
+_default:
+    path:    /{controller}/{action}/{id}
+    defaults: {_controller: AppBundle:Home:Index, category:'',page:1}
+

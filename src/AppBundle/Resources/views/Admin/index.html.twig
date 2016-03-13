@@ -1,7 +1,6 @@
  {% extends 'AppBundle:Shared:layout.html.twig' %} 
  {% block title %}Администрирование{% endblock %} 
  {% block body %} 
-
 <div class="panel panel-default">
     <div class="panel-heading">
         <h3>Список игр</h3>
@@ -34,10 +33,10 @@
                        {{ game.price }}  руб
                     </td>
                     <td class="text-center">
-                          {{ form_start(delete_form) }}
-                                 <input type="submit" class="btn btn-default btn-xs" value="Удалить">
-                          {{ form_end(delete_form) }}
-                        
+                         <form action="{{path('admin_game_delete', {'id': game.id})}}"  method="DELETE">
+                            <input type="hidden" value="{{game.id}}" name="gameId" />
+                            <input type="submit" class="btn btn-default btn-xs" value="Удалить" />
+                        </form>                       
 
                     </td>
 
@@ -56,4 +55,13 @@
     {{ knp_pagination_render(games) }}
 </div>
 </div>
+{% endblock %}
+
+{% block sidebar %}
+    <div id="sidebar">
+        {{ render(controller(
+        'AppBundle:Admin:sidebar',
+        { 'currentCategory':  category|default('') }
+    )) }}
+    </div>   
 {% endblock %}

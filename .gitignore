@@ -15,3 +15,5 @@
 /vendor/
 /web/bundles/
 /npm-debug.log.0a9bff22ca36d930532e62980f6c998c
+/node_modules/
+/web/assets/vendor/

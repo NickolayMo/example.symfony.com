@@ -1,3 +1,7 @@
+app_admin_game:
+    resource: "@AppBundle/Resources/config/routing/admin.yml"
+    prefix:   /admin/game
+
 
 _index:
     path:     /

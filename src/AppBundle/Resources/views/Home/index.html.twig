@@ -8,9 +8,9 @@
                 <strong>{{ game.title }}</strong>
                 <span class="pull-right label label-primary">{{ game.price }} руб.</span>
             </h3>
-            <form action="/cart/add_to_cart" method="GET">
+            <form action="{{path('_add_to_cart')}}" method="POST">
                 <div class="pull-right">
-                    <input type="hidden" value="{{game.id}}" />
+                    <input type="hidden" name="gameId" value="{{game.id}}" />
                     <input type="hidden" name="returnUrl" value="{{returnUrl}}" />
                     <input type="submit" class="btn btn-success" value="Добавить в корзину" />
 

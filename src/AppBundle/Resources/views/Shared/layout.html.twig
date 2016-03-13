@@ -3,7 +3,7 @@
     <div id="sidebar">
         {{ render(controller(
         'AppBundle:Home:sidebar',
-        { 'currentCategory':  category }
+        { 'currentCategory':  category|default('') }
     )) }}
     </div>   
 {% endblock %}

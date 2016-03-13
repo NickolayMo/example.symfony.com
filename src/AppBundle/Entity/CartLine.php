@@ -17,7 +17,7 @@ class CartLine {
     private $_game;
     private $_quantity;
     public function setGame(Game $game){
-        $this->_game = game;
+        $this->_game = $game;
     }
     public function getGame(){
         return $this->_game;

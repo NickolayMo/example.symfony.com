@@ -2,6 +2,18 @@
 _index:
     path:     /
     defaults: { _controller: AppBundle:Home:Index, category:'',page:1 }
+_cart:
+    path:    /cart
+    defaults: {_controller: AppBundle:Cart:Index}
+_add_to_cart:
+    path:    /cart/add_to_cart
+    defaults: {_controller: AppBundle:Cart:AddToCart}
+_remove_from_cart:
+    path:   /cart/remove_from_cart
+    defaults: {_controller: AppBundle:Cart:RemoveFromCart}
+_checkout:
+    path:   /cart/checkout
+    defaults: {_controller: AppBundle:Cart:Checkout}
 _list:
     path:     /{category}/page{page}
     defaults: { _controller: AppBundle:Home:Index }
@@ -14,7 +26,8 @@ _page:
         page:  \d+
 _category:
     path:     /{category}
-    defaults: { _controller: AppBundle:Home:Index, category:'',page:1 }
+    defaults: { _controller: AppBundle:Home:Index, category: '',page: 1 }
+
 _default:
     path:    /{controller}/{action}/{id}
     defaults: {_controller: AppBundle:Home:Index, category:'',page:1}

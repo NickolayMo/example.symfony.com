@@ -1,16 +1,11 @@
 admin_game_index:
     path:     /
-    defaults: { _controller: "AppBundle:Admin:index", category:'',page:1 }
-    methods:  GET
-
-admin_game_show:
-    path:     /{id}/show
-    defaults: { _controller: "AppBundle:Game:show" }
+    defaults: { _controller: "AppBundle:Admin:index", category:'',page:1, message: '' }
     methods:  GET
 
 admin_game_new:
     path:     /new
-    defaults: { _controller: "AppBundle:Game:new" }
+    defaults: { _controller: "AppBundle:Admin:new" }
     methods:  [GET, POST]
 
 admin_game_edit:

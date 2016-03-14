@@ -2,6 +2,9 @@
  {% block title %}Администрирование{% endblock %} 
  {% block body %} 
 <div class="panel panel-default">
+    {% if message !== '' %}
+        <p class="bg-success">{{message}}</p>
+    {% endif %}    
     <div class="panel-heading">
         <h3>Список игр</h3>
     </div>

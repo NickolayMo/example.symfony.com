@@ -1,31 +1,46 @@
 
+
 security:
     encoders:
-        Symfony\Components\Security\Core\User\User: plaintext
-    role_hierarchy:
-        ROLE_ADMIN: [ROLE_USER]
+        Symfony\Component\Security\Core\User\User: plaintext
+    firewalls:
+        main:
+            anonymous: ~
+            form_login:
+                login_path: login
+                check_path: login
+    access_control:
+        #- {path: /login, roles: IS_AUTHENTICATED_ANONYMUSLY}
+         - {path: /admin, roles: ROLE_ADMIN}
+
+# security:
+#     encoders:
+#         Symfony\Components\Security\Core\User\User: plaintext
+#     role_hierarchy:
+#         ROLE_ADMIN: [ROLE_USER]
     providers:
         chain_provider:
             chain:
-                providers:[in_memory]
+                providers: [in_memory]
         in_memory:
             memory:
                 users:
-                    admin: {password:adminpassword, roles: ROLE_ADMIN}
-    firewalls:
-        main:
-            form_login:
-                login_path: /login
-                check_path: /login_check
-                default_target_path: /
-            logout:
-                path: /logout
-                target: /
-           security: true
-           anonymous: true
-    access_controll:
-        -{path: /login, roles: IS_AUTHENTICATED_ANONYMUSLY}
-        -{path: /admin, roles: ROLE_ADMIN}
+                    admin: {password: adminpassword, roles: ROLE_ADMIN}
+#     firewalls:
+#         main:
+#             pattern: /.*
+#             form_login:
+#                 login_path: /user/login
+#                 check_path: /user/login_check
+#                 default_target_path: /
+#             logout:
+#                 path: /user/logout
+#                 target: /
+#             security: true
+#             anonymous: true
+#     access_control:
+#         - {path: /user/login, roles: IS_AUTHENTICATED_ANONYMUSLY}
+#         - {path: /admin, roles: ROLE_ADMIN}
 
 
 

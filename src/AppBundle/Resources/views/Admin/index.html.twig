@@ -2,7 +2,7 @@
  {% block title %}Администрирование{% endblock %} 
  {% block body %} 
 <div class="panel panel-default">
-    {% if message !== '' %}
+    {% if message %}
         <p class="bg-success">{{message}}</p>
     {% endif %}    
     <div class="panel-heading">
@@ -52,7 +52,7 @@
     </div>
     
     <div class="panel-footer">
-        <a asp-action="Create" class="btn btn-default">Добавить игру</a>
+        <a href="{{path('admin_game_new')}}" class="btn btn-default">Добавить игру</a>
     </div>
       <div class="navigation">
     {{ knp_pagination_render(games) }}

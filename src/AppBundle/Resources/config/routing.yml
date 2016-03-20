@@ -1,11 +1,9 @@
 app_admin_game:
     resource: "@AppBundle/Resources/config/routing/admin.yml"
     prefix:   /admin/game
-
-
 _index:
     path:     /
-    defaults: { _controller: AppBundle:Home:Index, category:'',page:1 }
+    defaults: { _controller: AppBundle:Home:Index, category: '', page: 1 }
 _cart:
     path:    /cart
     defaults: {_controller: AppBundle:Cart:Index}
@@ -35,4 +33,10 @@ _category:
 _default:
     path:    /{controller}/{action}/{id}
     defaults: {_controller: AppBundle:Home:Index, category:'',page:1}
-
+login:
+    path: /user/login
+    defaults: {_controller: AppBundle:User:login}
+login_check:
+    path: /user/login_check
+logout:
+    path: /user/logout

@@ -14,6 +14,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Game
@@ -28,6 +29,7 @@ class Game {
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
+     * 
      */
     private $id;
     
@@ -35,7 +37,7 @@ class Game {
      * @var string 
      * 
      * @ORM\Column(name="title", type="string", length=100)
-     * 
+     * @Assert\NotBlank(message = "Укажите название")
      */
     private $title;
     
@@ -44,6 +46,7 @@ class Game {
      * @var string
      * 
      * @ORM\Column(name="description", type="text")
+     * @Assert\NotBlank(message = "Укажите описание")
      */
     private $description;
     
@@ -52,6 +55,7 @@ class Game {
      * @var string
      * 
      * @ORM\Column(name="category", type="string", length=50)
+     * @Assert\NotBlank(message = "Укажите категорию")
      */
     private $category;
     
@@ -60,6 +64,8 @@ class Game {
      * @var float 
      * 
      * @ORM\Column(name="price", type="float")
+     * @Assert\NotBlank(message = "Укажите цену")
+     * @Assert\Range(min = 0.01,  minMessage = "Цена должна быть как минимум {{ limit }} руб")
      */
     private $price;
 

@@ -5,6 +5,7 @@ namespace AppBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 class GameType extends AbstractType
 {
@@ -15,10 +16,10 @@ class GameType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('title')
-            ->add('description')
-            ->add('category')
-            ->add('price')
+            ->add('title', TextType::class, array('label' => 'Название'))
+            ->add('description', TextType::class, array('label' => 'Описание'))
+            ->add('category', TextType::class, array('label' => 'Категория'))
+            ->add('price', TextType::class, array('label' => 'Цена'))
         ;
     }
     
